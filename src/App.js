@@ -5,16 +5,18 @@ const IPDATA_KEY = 'dcb19aafdd3accd0ca61b014f91a6cc5888d57f4f703a9758da3751e'
 const GOOGLE_API_KEY = 'AIzaSyCdQymwSuF0P6Ee-ffX0ZtWjpJdpaT5eLk'
 
 export default function App() {
-  const [state, setState] = useState()
+  const [state, setState] = useState({})
+  const [status, setStatus] = useState(200)
 
   useEffect(()=>  {async function fetchSetting() {
     const result = await axios.get(`https://api.ipdata.co?api-key=${IPDATA_KEY}`)
     const {city,country_name,latitude,longitude} = await result.data
     setState ({city,country_name,latitude,longitude})
+    setStatus(result.status)
    } 
    fetchSetting();}, []) 
   
-   return state? (
+   return status===200? (
     <div style ={{backgroundColor:'#f4f3ef',height:'100vh', fontFamily:'Helvetica Neue'}}>
       <br/>
       <div style={{width:'75%', backgroundColor:'white', textAlign:'center', margin:'auto', border:'1px solid black'}} >
