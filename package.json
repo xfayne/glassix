@@ -1,5 +1,6 @@
 {
   "name": "glassix_or",
+  "homepage": "https://xfayne.github.io/glassix",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
