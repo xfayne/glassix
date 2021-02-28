@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.js": "/glassix/static/js/main.d9fcb540.chunk.js",
-    "main.js.map": "/glassix/static/js/main.d9fcb540.chunk.js.map",
+    "main.js": "/glassix/static/js/main.fd77026e.chunk.js",
+    "main.js.map": "/glassix/static/js/main.fd77026e.chunk.js.map",
     "runtime-main.js": "/glassix/static/js/runtime-main.ea58b580.js",
     "runtime-main.js.map": "/glassix/static/js/runtime-main.ea58b580.js.map",
-    "static/js/2.c4b7496a.chunk.js": "/glassix/static/js/2.c4b7496a.chunk.js",
-    "static/js/2.c4b7496a.chunk.js.map": "/glassix/static/js/2.c4b7496a.chunk.js.map",
+    "static/css/2.150d169a.chunk.css": "/glassix/static/css/2.150d169a.chunk.css",
+    "static/js/2.05976c8c.chunk.js": "/glassix/static/js/2.05976c8c.chunk.js",
+    "static/js/2.05976c8c.chunk.js.map": "/glassix/static/js/2.05976c8c.chunk.js.map",
     "index.html": "/glassix/index.html",
-    "static/js/2.c4b7496a.chunk.js.LICENSE.txt": "/glassix/static/js/2.c4b7496a.chunk.js.LICENSE.txt"
+    "static/css/2.150d169a.chunk.css.map": "/glassix/static/css/2.150d169a.chunk.css.map",
+    "static/js/2.05976c8c.chunk.js.LICENSE.txt": "/glassix/static/js/2.05976c8c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ea58b580.js",
-    "static/js/2.c4b7496a.chunk.js",
-    "static/js/main.d9fcb540.chunk.js"
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.05976c8c.chunk.js",
+    "static/js/main.fd77026e.chunk.js"
   ]
 }
